@@ -1,0 +1,20 @@
+//program to add two numbers
+class Main {
+  public static void main(String[] args) {
+    int x;//declaration
+    x=8;//Initialization
+    int Y;
+    Y=4;
+    System.out.println(x+Y);
+    System.out.println(x-Y);
+    System.out.println(x*Y);
+    System.out.println(x/Y);
+    
+    System.out.println("T");
+    System.out.print("A");
+    System.out.println("T");
+    System.out.print("T");
+    System.out.print("T");
+    System.out.println("T");
+  }
+}

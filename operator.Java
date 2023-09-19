@@ -10,5 +10,8 @@ class Main {
     System.out.println("double value"+y);
     System.out.println(a>b);
     System.out.println(a==b);
+    System.out.println(a!=b);
+    System.out.println(a<=b);
+    System.out.println(a>=b);
   }
 }

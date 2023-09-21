@@ -13,5 +13,11 @@ class Main {
     System.out.println(a!=b);
     System.out.println(a<=b);
     System.out.println(a>=b);
+
+    System.out.println((5>3)||(3<1));
+    System.out.println((5>3)&&(3<1));
+    System.out.println(!(5>3)||(3>1));
+    String name="hai";
+    System.out.println(name);
   }
 }

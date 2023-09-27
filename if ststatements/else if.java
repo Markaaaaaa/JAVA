@@ -15,5 +15,9 @@ class Main {
     {
         System.out.println("Number is betwwen 20 and 10");  
     }
+    else
+    {
+      System.out.println("number is less than 10");
+    }
   }
 }

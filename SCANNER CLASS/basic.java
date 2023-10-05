@@ -15,5 +15,15 @@ class Main {
     // closes the scanner
     input.close();
 
+
+    // read input from the input stream
+    Scanner sc1 = new Scanner(InputStream input);
+
+    // read input from files
+    Scanner sc2 = new Scanner(File file);
+
+    // read input from a string
+    Scanner sc3 = new Scanner(String str);
+
   }
 }

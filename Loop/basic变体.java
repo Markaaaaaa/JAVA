@@ -6,11 +6,5 @@ class Main {
       System.out.println(i);
       i-=1;
     }
-    //for loop
-    for(int j=0; j<5; j++)
-    {
-      System.out.println(j);
-     }
-    
   }
 }

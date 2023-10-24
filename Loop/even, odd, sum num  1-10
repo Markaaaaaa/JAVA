@@ -1,0 +1,32 @@
+class Main {
+  public static void main(String[] args) {
+    int num=1;
+    while(num<=10){
+      if(num%2==0)
+      {
+        System.out.println(num);
+      }
+      num++;
+    }
+    
+    for(int num1=1;num1<=10;num1++){
+      if(num1%2!=0)
+      {
+        System.out.println(num1);
+      }
+    }
+    
+    int sum=0;
+    for(int i=1;i<=10;i++)
+    {
+      sum=sum+i;
+    }
+      System.out.println(sum);
+    int num2=1;
+    do
+      {
+        num2++; //before the println will print num2 after num2++
+        System.out.println(num2);
+      }while(num2<=10);
+  }
+}

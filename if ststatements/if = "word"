@@ -1,0 +1,9 @@
+
+class Main {
+    public static void main(String[] args) {
+     String name="mark";
+      if(name.equals("mark")){
+        System.out.println("hey mark");
+      }
+    }
+}
